@@ -1,0 +1,19 @@
+.next-ship-container {
+  display: grid;
+  grid-template-rows: 50px 150px 100px;
+  justify-items: center;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+}
+
+
+h2 {
+  margin-block-start: 0;
+}
+
+button {
+  margin-top: 50px;
+  height: 50px;
+}

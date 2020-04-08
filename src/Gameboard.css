@@ -1,0 +1,36 @@
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  width: 501px;
+  height: 501px;
+  grid-gap: 0px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.grid-square {
+  display: grid;
+  width: 49px;
+  height: 49px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.hit-dot {
+  margin :auto;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.miss-dot {
+  margin :auto;
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  border-radius: 50%;
+}
